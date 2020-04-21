@@ -1,0 +1,103 @@
+@keyframes example {
+  0%   {background-color:lightgrey; left:0px; top:0px;}
+    50%   {background-color:lightgrey; left:0px; top: 800px;}
+      100%   {background-color:lightgrey; left:0px; top:0px;}
+}
+@keyframes example2 {
+  0%   {background-color:lightgrey; left:1700px; top:-100px;}
+    50%   {background-color:lightgrey; left:1700px; top: 800px;}
+      100%   {background-color:lightgrey; left:1700px; top:-100px;}
+}
+@keyframes example3 {
+  0%   {background-color:lightgrey; left:0px; top:-200px;}
+    50%   {background-color:lightgrey; left:1700px; top: -200px;}
+      100%   {background-color:lightgrey; left:0px; top:-200px;}
+}
+
+body {
+    background-image: url("images/2.png");
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+   
+  
+  }
+ 
+#container
+{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: aliceblue;
+
+}
+#intro img
+{
+    border-radius: 0%;
+    height: 400px;
+    width: auto;
+}
+#nav
+{
+background-color:lightgray;
+width: 700px;
+padding: 50px;
+text-align: center;
+font-size: 150%;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+#anim {
+  width: 100px;
+  height: 100px;
+  background-color:lightgray;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#anim2 {
+  width: 100px;
+  height: 100px;
+  background-color:lightgray;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#anim3 {
+  width: 100px;
+  height: 100px;
+  background-color:lightgray;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#content
+{
+  background-color:lightgray;
+width: 700px;
+padding: 50px;
+text-align: left;
+font-size: 150%;
+color: black;
+}
+#view{
+  text-align: center;
+  padding: 300px;
+}
+#heading
+{
+  color: antiquewhite;
+  text-align: center;
+  font-size: 200%;
+}
+
+
+
+
